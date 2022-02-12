@@ -1,26 +1,26 @@
-import React from "react";
-import "../assets/styles/components/Footer.scss";
+import React from 'react';
+import '../assets/styles/components/Footer.scss';
 
 const Footer = () => (
   <footer className="footer">
     <div className="footer__made">
-      Made with{" "}
+      Made with{' '}
       <span role="img" aria-label="heart">
         💜
-      </span>{" "}
+      </span>{' '}
       by
       <a
-        href="https://www.linkedin.com/in/miguel-chamorro-fuentes-844a6514a/"
+        href="https://www.linkedin.com/in/estebangarviso/"
         rel="noopener noreferrer"
         target="_blank"
         className="logo"
       >
-        <span className="logo-img">&lt;&gt;</span> <span>Miguel Chamorro</span>
+        <span className="logo-img">&lt;&gt;</span> <span>Esteban Garviso</span>
       </a>
     </div>
     <div className="footer__location">
-      CH,
-      <span>Chillán</span>, 2022
+      CA,
+      <span>Ontario</span>, 2022
     </div>
   </footer>
 );
